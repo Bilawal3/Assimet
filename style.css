@@ -1,0 +1,23 @@
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+.previewImg{
+    width: 600px;
+    height: 460px;
+    background-color: cadetblue;
+    transition: 1s ease-in all;
+}
+.small_div_container{
+    height: 130px;
+    display: flex;
+}
+.box{
+    flex-grow: 1;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.8s all ease-in;
+}
